@@ -1,11 +1,16 @@
+/**
+ * @author <Cu Duc Quang - s4021255>
+ */
+
 import java.awt.dnd.DropTargetEvent;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+enum Status {New, Processing, Done};
+
 public class Claim {
-    enum Status {New, Processing, Done};
     private String claimID; private Date claimDate;
     private String insuredPerson; private String cardNumber;
     private Date examDate; private List<String> documents;

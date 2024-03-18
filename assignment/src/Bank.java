@@ -1,3 +1,7 @@
+/**
+ * @author <Cu Duc Quang - s4021255>
+ */
+
 public class Bank {
     private String bankName; private String accountHolder; private String accountNumber;
     //constructor
